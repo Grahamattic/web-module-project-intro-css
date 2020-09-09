@@ -59,6 +59,7 @@ h1{
     font-size: 70px;
     text-align: center;
     margin-top: 90px;
+    margin-bottom: 50px;
 }
 strong {
     font-weight: bold;
@@ -96,21 +97,37 @@ div.info img {
     float: left;
     width: 325px;
     border-radius: 100%;
-    padding: 60px;
+    padding: 55px;
+    margin-top: -110px;
 }
-div.info p {
-    float: left;
-    width: 325px;
-    border-radius: 100%;
-    padding: 60px;
+div.info p.info1 {
+    float: right;
+    font-size: 25px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+div.info p.info2 {
+    float: right;
+    font-size: 25px;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right:80px;
 }
 .content section.main {
     background-color: #DDB9A3;
     display: block;
+    margin-bottom: 25px;
+    padding: 20px 40px;
     color: whitesmoke;
-    font-size: 23px;
+    font-size: 24px;
     font-weight: normal;
-  }
+    clear: both;
+    text-align: center;
+}
+.content section.main p {
+    line-height: 29px;
+}
 .content section.second {
     width: 25%;
     margin: 0 auto;
@@ -129,4 +146,26 @@ footer {
   }
 .footer-img {
       height: 200px;
+      background: url(assets/footer_img.jpg);
   }
+footer nav a {
+    margin: 43px 78px;
+    display: inline-block;
+    padding: 15px 25px;
+    color: white;
+    font-size: 23px;
+    width: 165px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+    font-weight: normal;
+}
+footer nav a.plan {
+    background: #FF764E;
+}
+footer nav a.learn {
+    background: #5ED3EB;
+}
+footer nav a.involve {
+    background: #FFCD69;
