@@ -49,51 +49,66 @@ table {
 
 /* My CSS Begins Here
 */
-
-@font-face {
-    font-family: Chelsea Market;
-    src: url(https://fonts.google.com/specimen/Chelsea+Market);
-  }  
-
-@font-face {
-    font-family: Roboto Mono;
-    src: url(https://fonts.google.com/specimen/Roboto+Mono);
-}  
-
 body{
+    font-family: 'Roboto Mono';
     font-size: 16px;
     color: #000000;
-  }
-  h1{
-    font-family: 'Chelsea Market';
-    font-size: 4em;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 60px;
     text-align: center;
-  }
-  div.info{
-    background-color: #7FFFD4;
-    padding: 5%;
-  }
-  div.main{
+}
+strong {
+    font-weight: bold;
+}
+.container header nav a {
+    margin: 0 10px;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.container header nav a.plan {
+    background: #FF764E;
+}
+.container header nav a.learn {
+    background: #5ED3EB;
+}
+.container header nav a.involve {
+    background: #FFCD69;
+}
+section.info img {
+    width: 325px;
+    border-radius: 100%;
+    float: left;
+    padding: 60px;
+}
+div.main{
     background-color: #DDB9A3;
   }
-  .first-section{
+.first-section{
     color:#00CED1;
     background-color: #2F4F4F;
     padding: 10%;
-  }
-  .content{
+}
+.content{
     align-content: center;
   }
-  .second{
+.second{
     align-content: center;
     width: 20%;
     line-height: 1.5;
     letter-spacing:2px;
   }
-  footer {
+footer {
     width: 100%;
     background:#F9E7DC;
   }
-  footer img {
+.footer-img {
       height: 200px;
   }
