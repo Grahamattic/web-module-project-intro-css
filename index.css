@@ -56,22 +56,29 @@ body{
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
+    margin-top: 90px;
 }
 strong {
     font-weight: bold;
 }
+.container header nav {
+    width: 90%;
+    margin: 0 auto;
+}
 .container header nav a {
-    margin: 0 10px;
+    margin: 43px 78px;
     display: inline-block;
-    padding: 20px;
+    padding: 15px 25px;
     color: white;
-    font-size: 25px;
-    width: 100px;
+    font-size: 23px;
+    width: 165px;
     border-radius: 20px;
     text-decoration: none;
-    margin-bottom: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: normal;
 }
 .container header nav a.plan {
     background: #FF764E;
@@ -82,29 +89,40 @@ strong {
 .container header nav a.involve {
     background: #FFCD69;
 }
-section.info img {
+div.info {
+    width: 90%;
+}
+div.info img {
+    float: left;
     width: 325px;
     border-radius: 100%;
-    float: left;
     padding: 60px;
 }
-div.main{
-    background-color: #DDB9A3;
-  }
-.first-section{
-    color:#00CED1;
-    background-color: #2F4F4F;
-    padding: 10%;
+div.info p {
+    float: left;
+    width: 325px;
+    border-radius: 100%;
+    padding: 60px;
 }
-.content{
-    align-content: center;
+.content section.main {
+    background-color: #DDB9A3;
+    display: block;
+    color: whitesmoke;
+    font-size: 23px;
+    font-weight: normal;
   }
-.second{
-    align-content: center;
-    width: 20%;
-    line-height: 1.5;
-    letter-spacing:2px;
-  }
+.content section.second {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+.content section.second img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.content section.second p {
+    margin-bottom: 75px;
+}
 footer {
     width: 100%;
     background:#F9E7DC;
